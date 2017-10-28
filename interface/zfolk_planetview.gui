@@ -1,4 +1,39 @@
 guiTypes = {
+	containerWindowType = {
+		name = "planet_view_modules_panel_current"
+		size = { width = 307 height = 90 }
+
+		iconType = {
+			name = "icon"
+			spriteType = "GFX_spaceport_modules"
+			position = { x = 0 y = 0 }
+			scale = 0.7
+		}
+
+		instantTextBoxType = {
+			name = "name"
+			font = "cg_16b"
+			text = "NAME"
+			position = { x = 44 y = -1 }
+			orientation = upper_left
+			maxWidth = 268
+			maxHeight = 16
+			fixedSize = yes
+			format = left
+			text_color_code = "H"
+		}
+
+		instantTextBoxType = {
+			name = "desc"
+			font = "cg_16b"
+			position = { x = 44 y = 15 }
+			maxWidth = 268
+			maxHeight = 70
+			format = left
+			scrollbartype = "standardtext_slider"
+		}
+	}
+
 	# Spaceport Panel Module Buildables
 	containerWindowType = {
 		name = "planet_view_modules_panel_buildables"
@@ -44,7 +79,7 @@ guiTypes = {
 			tooltip_mode_enabled = yes
 		}
 
-		instantTextBoxType={
+		instantTextBoxType = {
 			name = "name"
 			font = "cg_16b"
 			text = "NAME"
@@ -58,7 +93,7 @@ guiTypes = {
 			text_color_code = "H"
 		}
 
-		instantTextBoxType={
+		instantTextBoxType = {
 			name = "desc"
 			font = "cg_16b"
 			text = "DESC"
